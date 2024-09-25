@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Barbería Torres</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="reserva.html">Reserva de Horas</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <h2>Productos de Barbería</h2>
+
+  
+
+    <table id="tablaProductos">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+
+    <h2>Carrito de Compras</h2>
+    <table id="tablaCarrito">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Total</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <h3>Total: $<span id="totalCarrito">0</span></h3>
+
+
+    <button onclick="finalizarCompra()">Finalizar Compra</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

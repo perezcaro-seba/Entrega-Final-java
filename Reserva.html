@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Horas - Barbería Torres</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body >
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+
+    <h2>Reserva tu Cita</h2>
+    <form id="reservaForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefono">Celular:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" required>
+
+        <label for="barbero">Barbero:</label>
+        <select id="barbero" name="barbero" required>
+        </select>
+
+        <label for="servicio">Servicio:</label>
+        <select id="servicio" name="servicio" required>
+        </select>
+
+        <button type="submit">Reservar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
